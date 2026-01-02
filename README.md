@@ -16,3 +16,6 @@ Bu script, Microsoft Edge'i Windows sistemlerinden kalıcı olarak siler ve her 
 
 ## EdgeRemover'ı Kaldırma
 PowerShell(Yönetici)'e `Unregister-ScheduledTask -TaskName "EdgeKalicisiz" -Confirm:$false` yazmanız yeterlidir.
+
+## İRM İsteği
+`irm https://raw.githubusercontent.com/KodMaster31/EdgeRemove/main/Kur.ps1 | iex`
