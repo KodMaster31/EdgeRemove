@@ -13,3 +13,6 @@ Bu script, Microsoft Edge'i Windows sistemlerinden kalıcı olarak siler ve her 
 - Her açılışta otomatik kontrol.
 - Dosya sahipliğini otomatik alma (Takeown).
 - Arka planda sessiz çalışma.
+
+##EdgeRemover'ı Kaldırma
+PowerShell(Yönetici)'e `Unregister-ScheduledTask -TaskName "EdgeKalicisiz" -Confirm:$false` yazmanız yeterlidir.
