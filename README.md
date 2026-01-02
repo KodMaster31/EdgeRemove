@@ -1,4 +1,4 @@
-# Windows Edge Permanent Remover
+# Windows Edge Remover
 ![EdgeRemove](logo.png)
 
 Bu script, Microsoft Edge'i Windows sistemlerinden kalıcı olarak siler ve her açılışta kontrol ederek tekrar yüklenmesini engeller.
@@ -14,5 +14,5 @@ Bu script, Microsoft Edge'i Windows sistemlerinden kalıcı olarak siler ve her 
 - Dosya sahipliğini otomatik alma (Takeown).
 - Arka planda sessiz çalışma.
 
-##EdgeRemover'ı Kaldırma
+## EdgeRemover'ı Kaldırma
 PowerShell(Yönetici)'e `Unregister-ScheduledTask -TaskName "EdgeKalicisiz" -Confirm:$false` yazmanız yeterlidir.
